@@ -40,7 +40,7 @@
   float:left;
   overflow:hidden;
   position:absolute;
-  bottom:5px;
+  bottom:20px;
   left:50%;
   z-index:4;
   color:#FFFFFF;
@@ -48,12 +48,14 @@
 
 .bannerslide-default-slider .jquery-slider-selector
 {
-  background:url(image/slide1/jquery-slider-theme.png) no-repeat 0px -59px;
   display:inline;
   float:left;
-  width:10px;
-  height:10px;
-  margin:0 0 0 3px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: .5;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
 }
 
 .bannerslide-default-slider .jquery-slider-selector-current
@@ -99,15 +101,52 @@
 
 .bannerslide-default-slider .jquery-slider-navigation-prev
 {
-  background:url(image/slide1/jquery-slider-theme.png) no-repeat 0 0;
-  left:-21px;
-  top:50%;
-  position:absolute;
+  width: 50px;
+  height: 35px;
+  background: rgb(54, 52, 53);
+  position: absolute;
+  top: 50%;
+  left: -34px;
+
+  -moz-transform: skew(-20deg) translateY(-50%); /* Для Firefox */
+  -ms-transform: skew(-20deg) translateY(-50%); /* Для IE */
+  -webkit-transform: skew(-20deg) translateY(-50%); /* Для Safari, Chrome, iOS */
+  -o-transform: skew(-20deg) translateY(-50%); /* Для Opera */
+  transform: skew(-20deg) translateY(-50%);
   cursor: pointer;
-  width:21px;
-  height:40px;
+  opacity: 1;
   margin-top:-20px;
   z-index:4;
+}
+
+.bannerslide-default-slider .jquery-slider-navigation-prev:after
+{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFdSURBVGhD7dFtboMwEIRhrpTb9G96khy8pfWW15N+GFjbNGElPxJSGGzvWJmGYfg/8zy/2MNrLKn4NT1vPFfiGFLh1/S8f8B+W8bnc/tdPgtxibXy2akvsVc+O+UlvOWzU12iVL50mdIa28sxz2EF1orxKltrOe6x9goRiWfPw3iKEAvx8y/hLcAnIf7iPeNwNYP5LMRSc9YhageyRIh/qD2zWcsglgnxHy1nV2kdwFIhLmqdsavnYJYL8aqeWUW9B7JFiDf1zpQjDmKbEO/qnp0WXroOAFuF2MVmrXS4sGRbWn9btjX+hQnbhdjNZtpstpsbn3xsQ2t5s8y8I67y7RJ15bO02feXFSy174ir9XToQm8hjoPeQhwHvYU4DnoLcRz0FuI46C3EcdBbiOOgtxDHQW8hjoPeQhwHvYU4DnoLcRz0FuI46C3EcdBbiOOgtxDHQW8hHobhUNP0Ce930lhLP+GrAAAAAElFTkSuQmCC);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .4;
+  -moz-transform: skew(20deg) rotate(-90deg) translate(50%, 100%); /* Для Firefox */
+  -ms-transform: skew(20deg) rotate(-90deg) translate(50%, 100%); /* Для IE */
+  -webkit-transform: skew(20deg) rotate(-90deg) translate(50%, 100%); /* Для Safari, Chrome, iOS */
+  -o-transform: skew(20deg) rotate(-90deg) translate(50%, 100%); /* Для Opera */
+  transform: skew(20deg) rotate(-90deg) translate(50%, 100%);
+}
+
+.bannerslide-default-slider .jquery-slider-navigation-prev:hover
+{
+  background: #E28E1F;
+}
+
+.bannerslide-default-slider .jquery-slider-navigation-prev:hover:after
+{
+  opacity:1;
 }
 
 .bannerslide-default-slider .jquery-slider-navigation-prev span
@@ -117,15 +156,51 @@
 
 .bannerslide-default-slider .jquery-slider-navigation-next
 {
-  background:url(image/slide1/jquery-slider-theme.png) no-repeat -21px 0;
-  right:-21px;
-  top:50%;
-  position:absolute;
+  width: 50px;
+  height: 35px;
+  background: rgb(54, 52, 53);
+  position: absolute;
+  top: 50%;
+  right: -22px;
+  -moz-transform: skew(-20deg) translateY(-50%); /* Для Firefox */
+  -ms-transform: skew(-20deg) translateY(-50%); /* Для IE */
+  -webkit-transform: skew(-20deg) translateY(-50%); /* Для Safari, Chrome, iOS */
+  -o-transform: skew(-20deg) translateY(-50%); /* Для Opera */
+  transform: skew(-20deg) translateY(-50%);
   cursor: pointer;
-  width:21px;
-  height:40px;
+  opacity: 1;
   margin-top:-20px;
   z-index:4;
+}
+
+.bannerslide-default-slider .jquery-slider-navigation-next:after
+{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFdSURBVGhD7dFtboMwEIRhrpTb9G96khy8pfWW15N+GFjbNGElPxJSGGzvWJmGYfg/8zy/2MNrLKn4NT1vPFfiGFLh1/S8f8B+W8bnc/tdPgtxibXy2akvsVc+O+UlvOWzU12iVL50mdIa28sxz2EF1orxKltrOe6x9goRiWfPw3iKEAvx8y/hLcAnIf7iPeNwNYP5LMRSc9YhageyRIh/qD2zWcsglgnxHy1nV2kdwFIhLmqdsavnYJYL8aqeWUW9B7JFiDf1zpQjDmKbEO/qnp0WXroOAFuF2MVmrXS4sGRbWn9btjX+hQnbhdjNZtpstpsbn3xsQ2t5s8y8I67y7RJ15bO02feXFSy174ir9XToQm8hjoPeQhwHvYU4DnoLcRz0FuI46C3EcdBbiOOgtxDHQW8hjoPeQhwHvYU4DnoLcRz0FuI46C3EcdBbiOOgtxDHQW8hHobhUNP0Ce930lhLP+GrAAAAAElFTkSuQmCC);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .4;
+  -moz-transform: skew(20deg) rotate(90deg) translate(-50%, -100%); /* Для Firefox */
+  -ms-transform: skew(20deg) rotate(90deg) translate(-50%, -100%); /* Для IE */
+  -webkit-transform: skew(20deg) rotate(90deg) translate(-50%, -100%); /* Для Safari, Chrome, iOS */
+  -o-transform: skew(20deg) rotate(90deg) translate(-50%, -100%); /* Для Opera */
+  transform: skew(20deg) rotate(90deg) translate(-50%, -100%);
+}
+
+.bannerslide-default-slider .jquery-slider-navigation-next:hover
+{
+  background: #E28E1F;
+}
+
+.bannerslide-default-slider .jquery-slider-navigation-next:hover:after
+{
+  opacity:1;
 }
 
 .bannerslide-default-slider .jquery-slider-navigation-next span
