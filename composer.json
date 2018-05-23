@@ -1,0 +1,20 @@
+{
+    "name": "alekseykirov/dowebdomobileslider",
+    "description": "N/A",
+    "type": "magento-module",
+    "authors": [
+        {
+            "name": "alekseykirov",
+            "email": "aleksey.kirov@yandex.ru"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/alekseykirov/dowebdomobileslider"
+        }
+    ],
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}
