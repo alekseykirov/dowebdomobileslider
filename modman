@@ -11,7 +11,14 @@ app/etc/modules/Magestore_Bannerslider.xml app/etc/modules/Magestore_Bannerslide
 app/etc/modules/Magestore_Magenotification.xml app/etc/modules/Magestore_Magenotification.xml
 app/locale/en_US/Magestore_Bannerslider.csv app/locale/en_US/Magestore_Bannerslider.csv
 js/magestore/bannerslider/slider1/jquery.slider.min.js js/magestore/bannerslider/slider1/jquery.slider.min.js
-js/magestore/bannerslider js/magestore/bannerslider
+js/magestore/bannerslider/jquery.ads.note.css js/magestore/bannerslider/jquery.ads.note.css
+js/magestore/bannerslider/jquery.ads.note.js js/magestore/bannerslider/jquery.ads.note.js
+js/magestore/bannerslider/jquery.flexslider.js js/magestore/bannerslider/jquery.flexslider.js
+js/magestore/bannerslider/jquery.slider.css js/magestore/bannerslider/jquery.slider.css
+js/magestore/bannerslider/jquery-1.7.min.js js/magestore/bannerslider/jquery-1.7.min.js
+js/magestore/bannerslider/lightbox.js js/magestore/bannerslider/lightbox.js
+js/magestore/bannerslider/prototip.js js/magestore/bannerslider/prototip.js
+js/magestore/bannerslider/tooltip.js js/magestore/bannerslider/tooltip.js
 js/tinybox/tinybox.js js/tinybox/tinybox.js
 media/bannerslider media/bannerslider
 skin/adminhtml/default/default/css skin/adminhtml/default/default/css
