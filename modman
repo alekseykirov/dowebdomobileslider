@@ -1,0 +1,3 @@
+app/etc/modules/Magestore_Bannerslider.xml app/etc/modules/Magestore_Bannerslider.xml
+app/etc/modules/Magestore_Magenotification.xml app/etc/modules/Magestore_Magenotification.xml
+app/code/community/Magestore/Bannerslider app/code/community/Magestore/Bannerslider
