@@ -60,7 +60,7 @@
 
 .bannerslide-default-slider .jquery-slider-selector-current
 {
-  background:url(image/slide1/jquery-slider-theme.png) no-repeat -10px -59px;
+  opacity: 1;
 }
 
 .bannerslide-default-slider .jquery-slider-selector span
